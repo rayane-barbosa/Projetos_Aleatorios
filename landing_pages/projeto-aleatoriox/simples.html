@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Simple HTML Page</title>
+    <style>
+      body {
+        background: linear-gradient(to right, rgb(255,186,186), rgb(255,123,123), rgb(255,82,82), rgb(255,0,0), rgb(167,0,0));
+        text-align: center;
+      }
+      #image-area {
+      text-align: center;
+      }
+      #image-area img {
+      max-width: 40%;
+    }
+    </style>
+    <script>
+      var images = ["image1.png", "image2.png", "image3.png", "image4.png", "image5.png", "image6.png", "image7.png", "image8.png", "image9.png", "image10.png"];
+      var currentIndex = 0;
+
+      function nextImage() {
+          currentIndex = (currentIndex + 1) % images.length;
+          document.getElementById("myImage").src = images[currentIndex];
+      }
+  </script>
+
+  </head>
+  <body>
+    <h1>Welcome to my website</h1>
+    <section id="image-area">
+    <img id="myImage" src="image1.png" alt="image">
+    <button onclick="nextImage()">Next Image</button>
+    </section>
+  </body>
+</html>
