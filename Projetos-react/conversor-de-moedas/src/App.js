@@ -1,10 +1,12 @@
 import './App.css';
-import FormularioConversor from './components/Formulario.jsx';
+import ConverteMoeda from './Componentes/ConverteMoeda.jsx'
+
 
 function App() {
   return (
     <div className="App">
-      <FormularioConversor/>
+      <h1> Conversor de Moedas </h1>      
+      <ConverteMoeda />
     </div>
   );
 }
