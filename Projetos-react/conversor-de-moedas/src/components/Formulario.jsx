@@ -8,7 +8,7 @@ function FormularioConversor() {
   
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input type="number" placeholder="Digite o Valor a ser convertido" {...register("Digite o Valor a ser convertido", {required: true, maxLength: 80})} />
+      <input type="text" placeholder="Digite o Valor a ser convertido" {...register("Digite o Valor a ser convertido", {required: true, maxLength: 80})} />
 
       <input type="submit" />
     </form>
