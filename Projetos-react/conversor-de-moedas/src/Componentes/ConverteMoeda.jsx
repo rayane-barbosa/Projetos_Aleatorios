@@ -23,7 +23,7 @@ export default function ConverteMoeda() {
     
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
-      <input 
+      <input className="insere"
       type="text" 
       placeholder="Digite o valor em dólares" 
       {...register('valor', {required: true, pattern: /^[0-9]+(\.[0-9]{1,2})?$/ })}
