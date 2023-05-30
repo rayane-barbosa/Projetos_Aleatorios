@@ -8,3 +8,5 @@ API escolhida : https://docs.awesomeapi.com.br/api-de-moedas
 [x] Formulário que recebe o valor digitado
 
 [x] Mostrar o valor convertido 
+
+[x] Estilização CSS
