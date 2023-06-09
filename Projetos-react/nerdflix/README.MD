@@ -2,7 +2,7 @@ Projeto NerdFlix
 
 Catálogo de filmes
 
-[ ] Componentes (head)
+[x] Componentes (head)
 [ ] Titulo
 [ ] Estilização 
 [ ] Card filme
