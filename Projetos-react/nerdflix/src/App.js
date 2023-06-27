@@ -1,5 +1,6 @@
 import './App.css';
-import Head from './components/head.jsx';
+import Head from './components/Head/head.jsx';
+import CardFilme from './components/CardFilms/cardFilmes.jsx';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
         name='Nerdflix'/>
         
       </header>
+
+      <CardFilme/>
+
     </div>
   );
 }
