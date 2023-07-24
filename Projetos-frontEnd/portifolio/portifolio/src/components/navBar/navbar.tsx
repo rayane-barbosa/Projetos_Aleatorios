@@ -12,7 +12,7 @@ interface NavBarProps {
 const NavBar: React.FC<NavBarProps> = ({ items }) => {
   return (
     <nav>
-      <ul>
+      <ul className='navBar-list'>
         {items.map((item, index) => (
           <li key={index}>
             <a href={item.url}>{item.label}</a>
